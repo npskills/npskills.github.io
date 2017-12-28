@@ -36,7 +36,11 @@ h3 {
   margin: 0;
   font-weight: normal;
 }
-
+@font-face { 
+   font-family: "SFSpeedway"; 
+    src: local("SF Speedwaystar Condensed"), url("nineparchments.ttf");
+    format("truetype");
+}
 em {
   font-style: normal;
 }
@@ -174,6 +178,7 @@ body.choicePage .wrapper {
 
 .skill {
   padding: 3px;
+  margin-bottom: 10%;
   width: 52px;
   height: 53px;
   cursor: pointer;
