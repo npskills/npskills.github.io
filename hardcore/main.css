@@ -12,7 +12,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  background: #333 url("..background.png") no-repeat fixed center center;
+  background: #333 url("../background.png") no-repeat fixed center center;
   background-size: cover;
   color: #eee;
   font: 15pt/17pt Homenaje, Impact, sans-serif;
