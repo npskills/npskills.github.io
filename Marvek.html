@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Nine Parchments Skill Calculator: Marvek</title>
+	<link href="main.css" rel="stylesheet" type="text/css">
+	<link href="css" rel="stylesheet" type="text/css">
+	<script src="jquery.min.js"></script>
+	<script src="skillManager.js"></script>
+</head>
+<body>
+
+<div class="header">
+	<div class="links"><a class="reset" href="Softcore.html">&lt; go back</a> | <a class="reset" href="http:npskills.github.io/">Home</a> | <a href="http:npskills.github.io/Marvek.html" class="reset">reset</a></div>
+	<h1>Nine Parchments skill calculator <div class="stamp">Softcore</div></h1>
+	<h2>Marvek the Torrid</h2>
+	<h3>Level <span class="charLevel">1</span></h3>
+</div>
+<img unselectable="on" class="portrait" src="MarvekPortrait.png" style="left: 45%;margin-left: -50%;">
+<div class="treeCollection">	
+<div class="treewrapper green">
+	<div class="bglayer gray"></div>
+	<div class="bglayer color" style="height: 80px;"></div>
+	<div class="tree">
+		<div class="tier" data-level="0" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT1T1S1.png">
+				<div class="description"><h2>Spellcraft</h2><em data-base="+2">+2</em>% spell power (max 10%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT1T1S2.png">
+				<div class="description"><h2>Lead the Field</h2><em data-base="+3">+3</em>% area spell power (max 15%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="1" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT1T2S1.png">
+				<div class="description"><h2>Homework</h2><em class="change" data-base="+2">+2</em>% critical hit chance (max 10%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill push1" data-points="0" data-max="5"><img src="./icons/MarvekT1T2S2.png">
+				<div class="description"><h2>Thick-Skinned</h2><em data-base="+2">+2</em>% damage reduction (max 10%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="2" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT1T3S1.png">
+				<div class="description"><h2>Ignite</h2>Fire spells set the target on fire, dealing <em data-base="+10">+10</em> Fire damage over 10 seconds (max 50 dmg over 10s)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT1T3S2.png">
+				<div class="description"><h2>Flame Wards</h2><em data-base="+4">+4</em>% Fire resistance for you and your fellow students (max 20%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="1"><img src="./icons/MarvekT1T3S3.png">
+				<div class="description"><h2>Backbone</h2><em data-base="+10">+10</em>% Fire spell charges</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="tier" data-level="3" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT1T4S1.png">
+				<div class="description"><h2>Chastise</h2><em data-base="+7">+7</em>% critical hit damage (max 35%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT1T4S2.png">
+				<div class="description"><h2>Experienced</h2>Dealing fire damage has 20% chance to give <em data-base="+8">+8</em>% faster spell regeneration for 5 seconds (max 40% regeneration)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="1"><img src="./icons/MarvekT1T4S3.png">
+				<div class="description"><h2>Simmer</h2><em data-base="+0.3">+0.3</em> Fire spell power per your character level</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="tier" data-level="4" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="1"><img src="./icons/MarvekT1T5S1.png">
+				<div class="description"><h2>Special Recipe</h2>Casting elemental spells other than Fire spells grants <em data-base="+10">+10</em>% spell power bonus for next 15 seconds, this can stack up to 3 times for each different element type cast.</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="totalPoints">
+			<span class="totalPoints">0</span>
+		</div>
+		<legend>Tree 1</legend>
+	</div>
+</div>
+<div class="treewrapper blue">
+	<div class="bglayer gray"></div>
+	<div class="bglayer color" style="height: 80px;"></div>
+	<div class="tree">
+		<div class="tier" data-level="0" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT2T1S1.png">
+				<div class="description"><h2>Firepower</h2><em data-base="+3">+3</em>% Fire spell power (max 15%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+			<div class="skill push1" data-points="0" data-max="5"><img src="./icons/MarvekT2T1S2.png">
+				<div class="description"><h2>Seeing Red</h2><em data-base="+5">+5</em>% Fire resistance and <em data-base="+2">+2</em>% Fire damage for 5 seconds when casting Fire spells (max 25% &10%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="1" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT2T2S1.png">
+				<div class="description"><h2>Inflame</h2>Fire spells have <em data-base="7">7</em>% chance to set target on fire, dealing 40 Fire damage over 2 seconds (max 35%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT2T2S2.png">
+				<div class="description"><h2>Crunchy Crust</h2>When target takes Fire damage, the effectiveness of all healing on target is reduced by <em data-base="15">15</em>% for next 3 seconds (max 75%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="2" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT2T3S1.png">
+				<div class="description"><h2>Hot Spot</h2><em data-base="-5">-5</em>% to target’s Fire resistance (max -25%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT2T3S2.png">
+				<div class="description"><h2>Amplified Flames</h2><em data-base="+3">+3</em>% critical hit chance with Fire spells (max 15%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="1"><img src="./icons/MarvekT2T3S3.png">
+				<div class="description"><h2>Searing Handshake</h2><em data-base="50">50</em>% chance to deal 20 Fire damage with melee attacks</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="tier" data-level="3" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT2T4S1.png">
+				<div class="description"><h2>Baby Boom</h2>Small Fireball, Huge Fireball, Cursed Meteor Shower and Fire Bullet spells have <em data-base="7">7</em>% chance to generate 3 smaller explosions, dealing 30 Fire area damage (max 35%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT2T4S2.png">
+				<div class="description"><h2>Blowtorch</h2><em data-base="+7">+7</em>% critical hit damage with Fire spells (max 35%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT2T4S3.png">
+				<div class="description"><h2>Tough Cookie</h2>Upon Death, deals 100 Fire damage to target who dealt the killing blow. If target is killed, you are revived to <em data-base="15">15</em>% health. Revive can only occur once per fight. (max 200 & 75%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier push1" data-level="4" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="1"><img src="./icons/MarvekT2T5S1.png">
+				<div class="description"><h2>Trailblazer</h2><em data-base="+20">+20</em>% Fire spell damage and <em data-base="+20">+20</em>% Fire resistance to you and your fellow students.</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="totalPoints">
+			<span class="totalPoints">0</span>
+		</div>
+		<legend>Tree 2</legend>
+	</div>
+</div>
+<div class="treewrapper red">
+	<div class="bglayer gray"></div>
+	<div class="bglayer color" style="height: 80px;"></div>
+	<div class="tree">
+		<div class="tier" data-level="0" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT3T1S1.png">
+				<div class="description"><h2>Liveliness</h2><em data-base="+5">+5</em>% maximum health (max 25%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT3T1S2.png">
+				<div class="description"><h2>Fire Resistance</h2><em data-base="+8">+8</em>% Fire resistance (max 40%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="1" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT3T2S1.png">
+				<div class="description"><h2>Physical Education</h2><em data-base="+2">+2</em>% movement speed (max 10%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT3T2S2.png">
+				<div class="description"><h2>Mana Flow</h2><em data-base="+7">+7</em>% faster spell regeneration (max 35%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="2" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT3T3S1.png">
+				<div class="description"><h2>Ice Resistance</h2><em data-base="+8">+8</em>% Ice resistance (max 40%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT3T3S2.png">
+				<div class="description"><h2>Lightning Resistance</h2><em data-base="+8">+8</em>% Lightning resistance (max 40%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="1"><img src="./icons/MarvekT3T3S3.png">
+				<div class="description"><h2>Firebrand</h2>Dealing a melee attack heals you by <em data-base="100">100</em> points over 10 seconds, additional melee damage attacks during this time refresh the healing.</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="tier" data-level="3" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT3T4S1.png">
+					<div class="description"><h2>Mana Barrier</h2><em data-base="+3">+3</em>% of your spell damage dealt creates a damage absorbing barrier aroud you with max 100 barrier points. Lasts 5 seconds if damage is not dealt (max 15%)</div>
+					<div class="points" style="visibility: hidden;">0/5</div>
+				</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/MarvekT3T4S2.png">
+				<div class="description"><h2>Rising Spirits</h2><em data-base="+0.5">+0.5</em> health per character level (max 2.5)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier push1" data-level="4" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="1"><img src="./icons/MarvekT3T5S1.png">
+				<div class="description"><h2>Heat Stroke</h2>Fire spells stun your target for 1 seconds and deal <em data-base="40">40</em> Fire damage.</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="totalPoints">
+			<span class="totalPoints">0</span>
+		</div>
+		<legend>Tree 3</legend>
+	</div>
+</div>
+</div>
+
+<div class="summary">
+	<div class="descriptionContainer"></div>
+	<div class="footer">Art © 2017 <a href="http://www.nineparchments.com/" target="_blank">Frozenbyte</a>. <a href="https://www.google.com/webfonts" target="_blank">Fonts</a> by Google.Code hosted on Github. <a href="https://github.com/seigler/bl2skills.com">Source Code</a>.
+</div>
+
+
+
+</body></html>

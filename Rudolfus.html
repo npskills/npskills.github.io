@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Nine Parchments Skill Calculator: Rudolfus</title>
+	<link href="main.css" rel="stylesheet" type="text/css">
+	<link href="css" rel="stylesheet" type="text/css">
+	<script src="jquery.min.js"></script>
+	<script src="skillManager.js"></script>
+</head>
+<body>
+
+<div class="header">
+	<div class="links"><a class="reset" href="Softcore.html">&lt; go back</a> | <a class="reset" href="http:npskills.github.io/">Home</a> | <a href="http:npskills.github.io/Rudolfus.html" class="reset">reset</a></div>
+	<h1>Nine Parchments skill calculator <div class="stamp">Softcore</div></h1>
+	<h2>Rudolfus the Strange</h2>
+	<h3>Level <span class="charLevel">1</span></h3>
+</div>
+<img unselectable="on" class="portrait" src="RudolfusPortrait.png" style="left: 40%;margin-left: -50%;">
+<div class="treeCollection">
+<div class="treewrapper green">
+	<div class="bglayer gray"></div>
+	<div class="bglayer color" style="height: 80px;"></div>
+	<div class="tree">
+		<div class="tier" data-level="0" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT1T1S1.png">
+				<div class="description"><h2>Thick-Skinned</h2><em data-base="+2">+2</em>% damage reduction (max 10%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+			<div class="skill push1" data-points="0" data-max="5"><img src="./icons/RudolfusT1T1S2.png">
+				<div class="description"><h2>Aptitude</h2><em data-base="+1.5">+1.5</em>% spell power and <em data-base="+2">+2</em>% spell charges (max 7.5% & 10%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="1" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT1T2S1.png">
+				<div class="description"><h2>Liveliness</h2><em data-base="+5">+5</em>% maximum health (max +25%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT1T2S2.png">
+				<div class="description"><h2>Mana Flow</h2><em data-base="+7">+7</em>% faster spell regeneration speed (max 35%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="2" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT1T3S1.png">
+				<div class="description"><h2>Chaotic Harmony</h2><em data-base="+7">+7</em>% Life and Death spell charges (max 35%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT1T3S2.png">
+				<div class="description"><h2>Jinx</h2>Target becomes <em data-base="+5">+5</em>% more vulnerable to spell damage for 10seconds after you deal them a melee hit (max 25%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="1"><img src="./icons/RudolfusT1T3S3.png">
+				<div class="description"><h2>Cursed Fields</h2><em data-base="+7">+7</em>% area spell power</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="tier" data-level="3" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT1T4S1.png">
+				<div class="description"><h2>Death Wards</h2><em data-base="+4">+4</em>% Death resistance for you and your fellow students (max 20%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT1T4S2.png">
+				<div class="description"><h2>Dying Breath</h2>Each fellow student in spirit state gives you <em data-base="+2">+2</em>% damage resistance, and increases their resurrection speed by <em data-base="+5">+5</em>% (max 10% & 25%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="1"><img src="./icons/RudolfusT1T4S3.png">
+				<div class="description"><h2>Fields of Death</h2><em data-base="+7">+7</em>% area spell power</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="tier" data-level="4" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="1"><img src="./icons/RudolfusT1T5S1.png">
+				<div class="description"><h2>Death Orbs</h2>Killing a target creates a Death Orb, dealing 20 Death damage per second to anyone touching it. Death Orbs last 30 seconds. Each existing Death Orb increases your spell damage by <em data-base="+7">+7</em>%</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="totalPoints">
+			<span class="totalPoints">0</span>
+		</div>
+		<legend>Tree 1</legend>
+	</div>
+</div>
+
+<div class="treewrapper blue">
+	<div class="bglayer gray"></div>
+	<div class="bglayer color" style="height: 80px;"></div>
+	<div class="tree">
+		<div class="tier" data-level="0" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT2T1S1.png">
+				<div class="description"><h2>Wickedness</h2><em data-base="+3">+3</em>% Death spell power (max 15%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT2T1S2.png">
+				<div class="description"><h2>Death Resistance</h2><em data-base="+8">+8</em>% Death resistance (max 40%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="1" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="5"><img src="./icons/RudolfusT2T2S1.png">
+				<div class="description"><h2>Circle of Life</h2>Each target killed heals you by <em data-base="8">8</em> points (max 40)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT2T2S2.png">
+				<div class="description"><h2>Dark Shadows</h2><em data-base="+6">+6</em>% Death spell charges (max 30%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="2" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT2T3S1.png">
+				<div class="description"><h2>Wither</h2>When your target is damaged by Death spells, the effectiveness of all healing on target is reduced by <em data-base="20">20</em>% for next <em data-base="1">1</em> sec (max 100% & 5s)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT2T3S2.png">
+				<div class="description"><h2>Inevitable Doom</h2><em data-base="-5">-5</em>% target Death resistance (max 25%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT2T3S3.png">
+				<div class="description"><h2>Sinister Aura</h2>You emit an aura, dealing <em data-base="10">10</em> Death damage per second to anyone who touches you, and gain <em data-base="+3">3</em>% damage reduction (max 50 & 15%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="3" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT2T4S1.png">
+				<div class="description"><h2>Sudden Death</h2><em data-base="+3">+3</em>% Death spell critical hit chance (max 15%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT2T4S2.png">
+				<div class="description"><h2>Leech</h2>Out of all Death damage dealt by you, other students or enemies <em data-base="3">3</em>% is returned to you as healing (max 15%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="4" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="1"><img src="./icons/RudolfusT2T5S1.png">
+				<div class="description"><h2>Spectral Lines</h2>Killing someone with a Death spell creates a Spectral Line between you and the place of death. Enemies in contact with the Spectral Line take 30 damage every 0.25 seconds, all friendly targets are healed by 10 every 0.25 seconds. Spectral Lines last for 10 seconds. Only one Spectral Line per caster can be active at the same time.</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="column3 totalPoints">
+			<span class="totalPoints">0</span>
+		</div>
+		<legend>Tree 2</legend>
+	</div>
+</div>
+
+<div class="treewrapper red">
+	<div class="bglayer gray"></div>
+	<div class="bglayer color" style="height: 80px;"></div>
+	<div class="tree" unselectable="on">
+		<div class="tier" data-level="0" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT3T1S1.png">
+				<div class="description"><h2>Hindrances</h2>Your spells’ slowing and freezing effects last <em data-base="+5">+5</em>% longer and stun effects last <em data-base="+7">+7</em>% longer (max 25% & 35%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT3T1S2.png">
+				<div class="description"><h2>Field Work</h2><em data-base="+2">+2</em>% spell power and <em data-base="+4">+4</em>% area spell charges (max 10% & 20%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="1" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT3T2S1.png">
+				<div class="description"><h2>Face to Face</h2>If there are enemies nearby, you gain <em data-base="+3">+4</em>% damage resistance (max 15%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill push1" data-points="0" data-max="5"><img src="./icons/RudolfusT3T2S2.png">
+				<div class="description"><h2>Homework</h2><em data-base="+2">+2</em>% critical hit chance (max 10%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="2" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT3T3S1.png">
+				<div class="description"><h2>Creeping Corruption</h2>Death spells have <em data-base="+7">+7</em>% chance to poison targets, dealing <em data-base="10">10</em> damage over 10 seconds (max 35% chance to deal 50 dmg over 10 seconds)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT3T3S2.png">
+				<div class="description"><h2>Toe to Toe</h2><em data-base="+20">+20</em>% melee attack damage (max 100%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="1"><img src="./icons/RudolfusT3T3S3.png">
+				<div class="description"><h2>Dangerous Spells</h2><em data-base="+25">+25</em>% critical hit damage</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="tier" data-level="3" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/RudolfusT3T4S1.png">
+				<div class="description"><h2>Terror</h2><em data-base="+3">+3</em>% chance to stun target for 1 seconds when dealing damage to a target (max 15%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill push1" data-points="0" data-max="5"><img src="./icons/RudolfusT3T4S2.png">
+				<div class="description"><h2>Physical Education</h2><em data-base="+2">+2</em>% movement speed (max 10%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="4" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="1"><img src="./icons/RudolfusT3T5S1.png">
+				<div class="description"><h2>Rising Power</h2><em data-base="+0.7">+0.7</em>% spell power per your character level</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="column3 totalPoints">
+			<span class="totalPoints">0</span>
+		</div>
+		<legend>Tree 3</legend>
+	</div>
+</div>
+</div>
+
+<div class="summary">
+	<div class="descriptionContainer"></div>
+	<div class="footer">Art © 2017 <a href="http://www.nineparchments.com/" target="_blank">Frozenbyte</a>. <a href="https://www.google.com/webfonts" target="_blank">Fonts</a> by Google.Code hosted on Github. <a href="https://github.com/seigler/bl2skills.com">Source Code</a>.
+	<!--#include virtual="./footer.txt"-->
+</div>
+
+
+
+
+<!--
+find:
+^(.+) \t[0-9]+ \t([0-9]+) \t(.+)$
+replace:
+\t\t<div class="skill" data-points="0" data-max="\2"><img src="../icons/class-tree-\i(0)">\n\t\t\t<div class="description"><h2>\1</h2>\3</div>\n\t\t\t<div class="points"></div>\n\t\t</div>
+-->
+</body></html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Nine Parchments Skill Calculator: Gislan</title>
+	<link href="main.css" rel="stylesheet" type="text/css">
+	<link href="css" rel="stylesheet" type="text/css">
+	<script src="jquery.min.js"></script>
+	<script src="skillManager.js"></script>
+</head>
+<body>
+
+<div class="header">
+	<div class="links"><a class="reset" href="Softcore.html">&lt; go back</a> | <a class="reset" href="http:npskills.github.io/">Home</a> | <a href="http:npskills.github.io/Gislan.html" class="reset">reset</a></div>
+	<h1>Nine Parchments skill calculator <div class="stamp">Softcore</div></h1>
+	<h2>Gislan of Alcyon</h2>
+	<h3>Level <span class="charLevel">1</span></h3>
+</div>
+<img unselectable="on" class="portrait" src="GislanPortrait.png" style="left: 45%;margin-left: -50%;">
+<div class="treeCollection">
+<div class="treewrapper green">
+	<div class="bglayer gray"></div>
+	<div class="bglayer color" style="height: 80px;"></div>
+	<div class="tree">
+		<div class="tier" data-level="0" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT1T1S1.png">
+				<div class="description"><h2>Spellcraft</h2><em data-base="+2">+2</em>% spell power (max 10%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT1T1S2.png">
+				<div class="description"><h2>Mana Flow</h2><em data-base="+7">+7</em>% faster spell regeneration (max 35%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT1T1S3.png">
+				<div class="description"><h2>Viridity</h2><em data-base="+4">+4</em>% Life spell power (max 20%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="1" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT1T2S1.png">
+				<div class="description"><h2>Gift of Nature</h2><em data-base="+2">+2</em>% spell power and melee damage for 10 seconds to targets affected by your healing (max 10%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT1T2S2.png">
+				<div class="description"><h2>Protector of Life</h2><em data-base="+2">+2</em>% damage reduction for 10 seconds to targets affected by your healing (max 10%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="2" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT1T3S1.png">
+				<div class="description"><h2>Field Work</h2><em data-base="+2">+2</em>% spell power and <em data-base="+4">+4</em>% area spell charges (max 10% & 20%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT1T3S2.png">
+				<div class="description"><h2>Cunning</h2><em data-base="+5">+5</em>% Life spell charges, and <em data-base="+5">+5</em>% stun and freeze duration for your spells (max 25% & 25%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="1"><img src="./icons/GislanT1T3S3.png">
+				<div class="description"><h2>Deep Roots</h2><em data-base="+15">+15</em>% Life spell charges</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="tier" data-level="3" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT1T4S1.png">
+				<div class="description"><h2>Flourish</h2><em data-base="7">7</em>% shorter stun duration and <em data-base="7">7</em>% resistance to slowing and freezing effects for 5 seconds to targets affected by your healing (max 35%) </div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill push1" data-points="0" data-max="5"><img src="./icons/GislanT1T4S2.png">
+				<div class="description"><h2>Regrowth</h2>When healing someone, you receive <em data-base="4">4</em> health over 2 seconds (max 20 & 2s)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="4" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="1"><img src="./icons/GislanT1T5S1.png">
+				<div class="description"><h2>Everbloom</h2><em data-base="+45">+45</em>% faster Life spell regeneration when in full health. Missing health reduces the bonus. When you die, a random student is resurrected, once per level. If no one is dead, you resurrect yourself.</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="totalPoints">
+			<span class="totalPoints">0</span>
+		</div>
+		<legend>Tree 1</legend>
+	</div>
+</div>
+
+<div class="treewrapper blue">
+	<div class="bglayer gray"></div>
+	<div class="bglayer color" style="height: 80px;"></div>
+	<div class="tree">
+		<div class="tier" data-level="0" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="5"><img src="./icons/GislanT2T1S1.png">
+				<div class="description"><h2>Lively Company</h2><em data-base="+2">+2</em>% spell power for you and fellow students (max 10%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="1" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT2T2S1.png">
+				<div class="description"><h2>Channeler</h2>Channeled spells deal <em data-base="+1">+1</em>% more damage each second spent channeling up to <em data-base="+5">+5</em>% damage (max 5% & 25%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT2T2S2.png">
+				<div class="description"><h2>Spellslinger</h2><em data-base="+3">+3</em>% projectile spell power (max 15%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT2T2S3.png">
+				<div class="description"><h2>Upheaval</h2><em data-base="+3">+3</em>% throwable spell power (max 15%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="2" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT2T3S1.png">
+				<div class="description"><h2>Hindrances</h2>Your spells’s slowing and freezing effects last <em data-base="+5">+5</em>% longer and stun effects last <em data-base="+7">+7</em>% longer (max 25% & 35%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill push1" data-points="0" data-max="5"><img src="./icons/GislanT2T3S2.png">
+				<div class="description"><h2>Physical Education</h2><em data-base="+2">+2</em>% movement speed (max 10%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="3" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT2T4S1.png">
+				<div class="description"><h2>Thrill of the Chase</h2><em data-base="+4">+4</em>% movement speed for 2 seconds when dealing damage (max 20%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT2T4S2.png">
+				<div class="description"><h2>Homework</h2><em data-base="+2">+2</em>% critical hit chance (max 10%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="1"><img src="./icons/GislanT2T4S3.png">
+				<div class="description"><h2>Clairvoyance</h2><em data-base="+12">+12</em>% faster spell regeneration</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="tier" data-level="4" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="1"><img src="./icons/GislanT2T5S1.png">
+				<div class="description"><h2>Bewitching</h2><em data-base="+0.5">+0.5</em>% increased spell power each percent of missing health up to 50%. When you die, a random student is resurrected, once per level. If no one is dead, you resurrect yourself.</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="totalPoints">
+			<span class="totalPoints">0</span>
+		</div>
+		<legend>Tree 2</legend>
+	</div>
+</div>
+
+<div class="treewrapper red">
+	<div class="bglayer gray"></div>
+	<div class="bglayer color" style="height: 80px;"></div>
+	<div class="tree">
+		<div class="tier" data-level="0" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT3T1S1.png">
+				<div class="description"><h2>Rites of Spring</h2><em data-base="+7">+7</em>% faster resurrection speed (max 35%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT3T1S2.png">
+				<div class="description"><h2>Thick-Skinned</h2><em data-base="+2">+2</em>% damage reduction (max 10%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="1" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT3T2S1.png">
+				<div class="description"><h2>Transference</h2><em data-base="2">2</em>% of spell damage dealt is returned to you as healing (max 10%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT3T2S2.png">
+				<div class="description"><h2>Death Resistance</h2><em data-base="+8">+8</em>% Death resistance (max 40%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="1"><img src="./icons/GislanT3T2S3.png">
+				<div class="description"><h2>Rising Spirits</h2><em data-base="+1">+1</em> health per character level</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="tier" data-level="2" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT3T3S1.png">
+				<div class="description"><h2>Liveliness</h2><em data-base="+5">+5</em>% maximum health (max 25%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT3T3S2.png">
+				<div class="description"><h2>Panic Casting</h2><em data-base="+4">+4</em>% damage reduction for 4 seconds while casting spells (max 20%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="3" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT3T4S1.png">
+				<div class="description"><h2>Beckon Life</h2><em data-base="1">1</em>% of your spell damage dealt is returned as healing to you and your fellow students (max 5%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/GislanT3T4S2.png">
+				<div class="description"><h2>Elemental Resistance</h2><em data-base="+4">+4</em>% Fire, Ice and Lightning resistance (max 20%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="4" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="1"><img src="./icons/GislanT3T5S1.png">
+				<div class="description"><h2>Fountain of Life</h2>You and your fellow students are healed constantly, with <em data-base="2">2</em>% of total health restored every 2s. If you take Death damage, healing is halted for 20s. Triggers Flourish, Protector of Life and Gift of Nature.</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="totalPoints">
+			<span class="totalPoints">0</span>
+		</div>
+		<legend>Tree 3</legend>
+	</div>
+</div>
+</div>
+
+<div class="summary">
+	<div class="descriptionContainer"></div>
+	<div class="footer">Art © 2017 <a href="http://www.nineparchments.com/" target="_blank">Frozenbyte</a>. <a href="https://www.google.com/webfonts" target="_blank">Fonts</a> by Google.Code hosted on Github. <a href="https://github.com/seigler/bl2skills.com">Source Code</a>.
+	<!--#include virtual="./footer.txt"-->
+</div>
+
+
+
+
+<!--
+find:
+^(.+) \t[0-9]+ \t([0-9]+) \t(.+)$
+replace:
+\t\t<div class="skill" data-points="0" data-max="\2"><img src="../icons/class-tree-\i(0)">\n\t\t\t<div class="description"><h2>\1</h2>\3</div>\n\t\t\t<div class="points"></div>\n\t\t</div>
+-->
+</body></html>

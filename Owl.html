@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Nine Parchments Skill Calculator: Owl</title>
+	<link href="main.css" rel="stylesheet" type="text/css">
+	<link href="css" rel="stylesheet" type="text/css">
+	<script src="jquery.min.js"></script>
+	<script src="skillManager.js"></script>
+</head>
+<body>
+
+<div class="header">
+	<div class="links"><a class="reset" href="Softcore.html">&lt; go back</a> | <a class="reset" href="http:npskills.github.io/">Home</a> | <a href="http:npskills.github.io/Owl.html" class="reset">reset</a></div>
+	<h1>Nine Parchments skill calculator <div class="stamp">Softcore</div></h1>
+	<h2>The Mechanical Owl</h2>
+	<h3>Level <span class="charLevel">1</span></h3>
+</div>
+<img unselectable="on" class="portrait" src="OwlPortrait.png" style="left: 45%;margin-left: -50%;">
+<div class="treeCollection">
+<div class="treewrapper green">
+	<div class="bglayer gray"></div>
+	<div class="bglayer color" style="height: 80px;"></div>
+	<div class="tree">
+		<div class="tier" data-level="0" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT1T1S1.png">
+				<div class="description"><h2>Owlish Wisdom</h2><em data-base="+1">+1</em>% spell power and <em data-base="+3">+3</em>+% faster spell regeneration (max 5% & 15%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT1T1S2.png">
+				<div class="description"><h2>Thick-Skinned</h2><em data-base="+2">+2</em>% damage reduction (max 10%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="1" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT1T2S1.png">
+				<div class="description"><h2>Battlebird</h2><em data-base="+2">+2</em>% spell power and <em data-base="+3">+3</em>% maximum health (max 10% & 15%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT1T2S2.png">
+				<div class="description"><h2>Improved Circuitry</h2><em data-base="-15">-15</em>% shorter stun duration (max 75%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="2" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT1T3S1.png">
+				<div class="description"><h2>Viridity</h2><em data-base="+4">+4</em>% Life spell power (max 20%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT1T3S2.png">
+				<div class="description"><h2>Static Charge</h2><em data-base="5">5</em>% chance to deal 50 additional Lightning damage with melee attacks (max 25%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT1T3S3.png">
+				<div class="description"><h2>Conserve Energy</h2><em data-base="+20">+20</em>% faster spell regeneration while standing still (max 100%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="3" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT1T4S1.png">
+				<div class="description"><h2>Lightning Wards</h2><em data-base="+4">+4</em>% Lightning resistance to you and your fellow students (max 20%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT1T4S2.png">
+				<div class="description"><h2>Arcane Infusion</h2><em data-base="+4">+4</em>% channeled spell and projectile spell power (max 20%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="1"><img src="./icons/OwlT1T4S3.png">
+				<div class="description"><h2>Reconstruct</h2><em data-base="+25">+25</em>% increased effects from healing while standing still</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="tier" data-level="4" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="1"><img src="./icons/OwlT1T5S1.png">
+				<div class="description"><h2>Electrostatic Field</h2>Whenever Lightning damage is dealt in battle you gain <em data-base="+25">+25</em>% faster spell regeneration and <em data-base="+20">+20</em>% increased spell power for next 2 seconds. Timer reset every time Lightning damage is done.</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="totalPoints">
+			<span class="totalPoints">0</span>
+		</div>
+		<legend>Tree 1</legend>
+	</div>
+</div>
+<div class="treewrapper blue">
+	<div class="bglayer gray"></div>
+	<div class="bglayer color" style="height: 80px;"></div>
+	<div class="tree">
+		<div class="tier" data-level="0" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT2T1S1.png">
+				<div class="description"><h2>Lightning Infusion</h2><em data-base="+2">+2</em>% Lightning spell damage, Lightning stun duration lasts <em data-base="5">5</em>% longer (max 10% & 25%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT2T1S2.png">
+				<div class="description"><h2>Inductance</h2><em data-base="+5">+5</em>% faster Lightning spell regeneration (max 25%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="1" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT2T2S1.png">
+				<div class="description"><h2>Nest Egg</h2><em data-base="+2">+2</em>% Lightning spell charges and <em data-base="+4">+4</em>% faster Lightning spell regeneration (max 10% & 20%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT2T2S2.png">
+				<div class="description"><h2>Sparkplug</h2><em data-base="+15">+15</em>% chance to deal 25 Lightning damage to attacker when taking melee damage (max 75%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="2" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT2T3S1.png">
+				<div class="description"><h2>Birds of a Feather</h2><em data-base="+2">+2</em>% Lightning spell power for you and your fellow students (max 10%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill push1" data-points="0" data-max="5"><img src="./icons/OwlT2T3S2.png">
+				<div class="description"><h2>Well-Focused Owl</h2><em data-base="+3">+3</em>% critical hit chance with Ligthning spells (max 15%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="3" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT2T4S1.png">
+				<div class="description"><h2>Lightningstuck</h2>Target hit by Lightning spells has <em data-base="15">15</em>% chance to become imbued by Lightning for 2 seconds. During this time target radiates Lightning damage to nearby targets, dealing 40 Lightning damage over 2 sec (max 75%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT2T4S2.png">
+				<div class="description"><h2>Bigger Batteries</h2><em data-base="+8">+8</em>% Lightning spell charges (max 40%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="1"><img src="./icons/OwlT2T4S3.png">
+				<div class="description"><h2>Bird of Prey</h2><em data-base="+2">+2</em>% critical hit damage per character level</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="tier" data-level="4" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="1"><img src="./icons/OwlT2T5S1.png">
+				<div class="description"><h2>Eye of Storm</h2><em data-base="+20">+20</em>% Lightning spell damage, <em data-base="+10">+10</em>% increased critical hit chance with Lightning spells</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="totalPoints">
+			<span class="totalPoints">0</span>
+		</div>
+		<legend>Tree 2</legend>
+	</div>
+</div>
+<div class="treewrapper red">
+	<div class="bglayer gray"></div>
+	<div class="bglayer color" style="height: 80px;"></div>
+	<div class="tree">
+		<div class="tier" data-level="0" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT3T1S1.png">
+				<div class="description"><h2>Liveliness</h2><em data-base="+5">+5</em>% maximum health (max 25%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+			<div class="skill push1" data-points="0" data-max="5"><img src="./icons/OwlT3T1S2.png">
+				<div class="description"><h2>Lightning Resistance</h2><em data-base="+8">+8</em>% Lightning resistance (max 40%)</div>
+				<div class="points" style="visibility: visible;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="1" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT3T2S1.png">
+				<div class="description"><h2>Burst of Flight</h2><em data-base="+6">+6</em>% movement speed for 4 seconds whenever you take damage (max 30%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT3T2S2.png">
+				<div class="description"><h2>Panic Casting</h2><em data-base="+4">+4</em>% damage reduction for 4 seconds while casting spells (max 20%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+		</div>
+		<div class="tier" data-level="2" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT3T3S1.png">
+				<div class="description"><h2>Transference Flash</h2><em data-base="3">3</em>% of Lightning damage dealt is returned as healing (max 15%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill push1" data-points="0" data-max="1"><img src="./icons/OwlT3T3S2.png">
+				<div class="description"><h2>Flux</h2><em data-base="+10">+10</em>% Lightning resistance, <em data-base="+5">+5</em>% movement speed</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="tier" data-level="3" data-invested="0" data-total="0">
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT3T4S1.png">
+				<div class="description"><h2>Mana Barrier</h2><em data-base="3">3</em>% of your spell damage dealt creates a damage absorbing barrier around you with a max 100 barrier points. Lasts 5 seconds if damage is not dealt (max 15%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+			<div class="skill" data-points="0" data-max="5"><img src="./icons/OwlT3T4S2.png">
+				<div class="description"><h2>Shock Treatment</h2>Your spells have a <em data-base="+10">+10</em>% longer Lightning stun duration (max 50%)</div>
+				<div class="points" style="visibility: hidden;">0/5</div>
+			</div>
+				<div class="skill" data-points="0" data-max="1"><img src="./icons/OwlT3T4S3.png">
+				<div class="description"><h2>Lightning Insulation</h2><em data-base="+30">+30</em>% Lightning resistance</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="tier" data-level="4" data-invested="0" data-total="0">
+			<div class="skill push1" data-points="0" data-max="1"><img src="./icons/OwlT3T5S1.png">
+				<div class="description"><h2>Supercharged</h2>Whenever you cast Lightning spells you gains a small aura that electrocutes everyone around you every 1 second for <em data-base="50">50</em> Lightning damage. This aura disappears after 2 seconds if Lightning spells are not cast.</div>
+				<div class="points" style="visibility: hidden;">0/1</div>
+			</div>
+		</div>
+		<div class="totalPoints">
+			<span class="totalPoints">0</span>
+		</div>
+		<legend>Tree 3</legend>
+	</div>
+</div>
+</div>
+
+<div class="summary">
+<div class="descriptionContainer"></div>
+	<div class="footer">Art © 2017 <a href="http://www.nineparchments.com/" target="_blank">Frozenbyte</a>. <a href="https://www.google.com/webfonts" target="_blank">Fonts</a> by Google.Code hosted on Github. <a href="https://github.com/seigler/bl2skills.com">Source Code</a>.
+</div>
+
+
+
+</body></html>
