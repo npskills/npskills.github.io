@@ -148,28 +148,98 @@ body.choicePage .wrapper {
   height: 80px;
 }
 
-.green .gray {
-  background: url("skill_bg_green_gray.png") transparent;
+.amadeus1 .gray {
+  background: url("skill_bg_amadeus1.png") transparent;
 }
 
-.blue .gray {
-  background: url("skill_bg_blue_gray.png") transparent;
+.amadeus2 .gray {
+  background: url("skill_bg_amadeus2.png") transparent;
+}
+.amadeus3 .gray {
+  background: url("skill_bg_amadeus3.png") transparent;
 }
 
-.red .gray {
-  background: url("skill_bg_red_gray.png") transparent;
+.carabel1 .gray {
+  background: url("skill_bg_carabel1.png") transparent;
 }
 
-.green .color {
-  background: url("skill_bg_green.png") transparent;
+.carabel2 .gray {
+  background: url("skill_bg_carabel2.png") transparent;
 }
 
-.blue .color {
-  background: url("skill_bg_blue.png") transparent;
+.carabel3 .gray {
+  background: url("skill_bg_carabel3.png") transparent;
 }
 
-.red .color {
-  background: url("skill_bg_red.png") transparent;
+.cornelius1 .gray {
+  background: url("skill_bg_cornelius1.png") transparent;
+}
+
+.cornelius2 .gray {
+  background: url("skill_bg_cornelius2.png") transparent;
+}
+
+.cornelius3 .gray {
+  background: url("skill_bg_cornelius3.png") transparent;
+}
+
+.gislan1 .gray {
+  background: url("skill_bg_gislan1.png") transparent;
+}
+
+.gislan2 .gray {
+  background: url("skill_bg_gislan2.png") transparent;
+}
+
+.gislan3 .gray {
+  background: url("skill_bg_gislan3.png") transparent;
+}
+
+.marvek1 .gray {
+  background: url("skill_bg_marvek1.png") transparent;
+}
+
+.marvek2 .gray {
+  background: url("skill_bg_marvek2.png") transparent;
+}
+.marvek3 .gray {
+  background: url("skill_bg_marvek3.png") transparent;
+}
+
+.nim1 .gray {
+  background: url("skill_bg_nim1.png") transparent;
+}
+
+.nim2 .gray {
+  background: url("skill_bg_nim2.png") transparent;
+}
+
+.nim3 .gray {
+  background: url("skill_bg_nim3.png") transparent;
+}
+
+.owl1 .gray {
+  background: url("skill_bg_owl1.png") transparent;
+}
+
+.owl2 .gray {
+  background: url("skill_bg_owl2.png") transparent;
+}
+
+.owl3 .gray {
+  background: url("skill_bg_owl3.png") transparent;
+}
+
+.rudolfus1 .gray {
+  background: url("skill_bg_rudolfus1.png") transparent;
+}
+
+.rudolfus2 .gray {
+  background: url("skill_bg_rudolfus2.png") transparent;
+}
+
+.rudolfus3 .gray {
+  background: url("skill_bg_rudolfus3.png") transparent;
 }
 
 .skill {
