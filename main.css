@@ -148,6 +148,30 @@ body.choicePage .wrapper {
   height: 80px;
 }
 
+.green .gray {
+  background: url("skill_bg_green_gray.png") transparent;
+}
+
+.blue .gray {
+  background: url("skill_bg_blue_gray.png") transparent;
+}
+
+.red .gray {
+  background: url("skill_bg_red_gray.png") transparent;
+}
+
+.green .color {
+  background: url("skill_bg_green.png") transparent;
+}
+
+.blue .color {
+  background: url("skill_bg_blue.png") transparent;
+}
+
+.red .color {
+  background: url("skill_bg_red.png") transparent;
+}
+
 .amadeus1 .gray {
   background: url("skill_bg_amadeus1.png") transparent;
 }
@@ -326,12 +350,33 @@ legend {
   text-align: center;
 }
 
-.green .description,
-.blue .description {
+.amadeus1 .description,
+.carabel1 .description,
+.carabel2 .description,
+.cornelius1 .description,
+.cornelius2 .description,
+.gislan1 .description,
+.gislan2 .description,
+.marvek1 .description,
+.marvek2 .description,
+.nim1 .description,
+.nim2 .description,
+.owl1 .description,
+.owl2 .description,
+.rudolfus1 .description,
+.rudolfus2 .description,
+.amadeus2 .description {
   left: 110%;
 }
 
-.red .description {
+.amadeus3 .description,
+.carabel3 .description,
+.cornelius3 .description,
+.gislan3 .description,
+.marvek3 .description,
+.nim3 .description,
+.owl3 .description,
+.rudolfus3 .description {
   right: 110%;
 }
 

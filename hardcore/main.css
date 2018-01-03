@@ -330,12 +330,33 @@ legend {
   text-align: center;
 }
 
-.green .description,
-.blue .description {
+.amadeus1 .description,
+.carabel1 .description,
+.carabel2 .description,
+.cornelius1 .description,
+.cornelius2 .description,
+.gislan1 .description,
+.gislan2 .description,
+.marvek1 .description,
+.marvek2 .description,
+.nim1 .description,
+.nim2 .description,
+.owl1 .description,
+.owl2 .description,
+.rudolfus1 .description,
+.rudolfus2 .description,
+.amadeus2 .description {
   left: 110%;
 }
 
-.red .description {
+.amadeus3 .description,
+.carabel3 .description,
+.cornelius3 .description,
+.gislan3 .description,
+.marvek3 .description,
+.nim3 .description,
+.owl3 .description,
+.rudolfus3 .description {
   right: 110%;
 }
 
