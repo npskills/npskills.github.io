@@ -246,6 +246,18 @@ body.choicePage .wrapper {
   background: url("skill_bg_rudolfus3.png") transparent;
 }
 
+.selius1 .gray {
+  background: url("skill_bg_selius1.png") transparent;
+}
+
+.selius2 .gray {
+  background: url("skill_bg_selius2.png") transparent;
+}
+
+.selius3 .gray {
+  background: url("skill_bg_selius3.png") transparent;
+}
+
 .skill {
   padding: 3px;
   margin-bottom: 10%;
@@ -331,6 +343,8 @@ legend {
 }
 
 .amadeus1 .description,
+.selius1 .description,
+.selius2 .description,
 .carabel1 .description,
 .carabel2 .description,
 .cornelius1 .description,
@@ -350,6 +364,7 @@ legend {
 }
 
 .amadeus3 .description,
+.selius3 .description,
 .carabel3 .description,
 .cornelius3 .description,
 .gislan3 .description,
