@@ -36,7 +36,11 @@ h3 {
   margin: 0;
   font-weight: normal;
 }
-
+@font-face { 
+   font-family: "SFSpeedway"; 
+    src: local("SF Speedwaystar Condensed"), url("nineparchments.ttf");
+    format("truetype");
+}
 em {
   font-style: normal;
 }
@@ -148,30 +152,6 @@ body.choicePage .wrapper {
   height: 80px;
 }
 
-.green .gray {
-  background: url("skill_bg_green_gray.png") transparent;
-}
-
-.blue .gray {
-  background: url("skill_bg_blue_gray.png") transparent;
-}
-
-.red .gray {
-  background: url("skill_bg_red_gray.png") transparent;
-}
-
-.green .color {
-  background: url("skill_bg_green.png") transparent;
-}
-
-.blue .color {
-  background: url("skill_bg_blue.png") transparent;
-}
-
-.red .color {
-  background: url("skill_bg_red.png") transparent;
-}
-
 .amadeus1 .gray {
   background: url("skill_bg_amadeus1.png") transparent;
 }
@@ -265,6 +245,7 @@ body.choicePage .wrapper {
 .rudolfus3 .gray {
   background: url("skill_bg_rudolfus3.png") transparent;
 }
+
 .selius1 .gray {
   background: url("skill_bg_selius1.png") transparent;
 }
